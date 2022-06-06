@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-color: #B91D73;
+    --secondary-color: #F953C6;
+    --black: #1B1C1E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: "Poppins", Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-size: 100%;
+    color: var(--black);
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    height: 100vh;
+    gap: 1.5rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    line-height: 2rem;
+}
+
+.container p {
+    letter-spacing: 0.125rem;
+    font-weight: 500;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 5rem;
+    min-width: 5rem;
+    min-height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+#counter button {
+    width: 5rem;
+    height: 5rem;
+    border: 0.05rem solid var(--primary-colors);
+    background: var(--black);
+    color: var(--secondary-color);
+    font-size: 2rem;
+    text-align: center;
+    transition: 0.4s;
+}
+
+#counter button:hover{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    transition: 0.4s;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-color: #77B255;
+    --secondary-color: #CACACA;
+    --black: #1B1C1E;
+    --white: #EAEAEA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: "Poppins", Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+  font-size: 100%;
+  color: var(--black);
+  background: var(--white);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column; 
+  height: 100vh;
+  gap: 1.5rem;
+}
+
+.container h1{
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.1rem;
+  padding: 2rem;
+  background: white;
+}
+
+button {
+  border: 0.1rem solid var(--secondary-color);
+  border-radius: 0.2rem;
+  background: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: 0.1rem solid var(--secondary-color);
+  margin: 0.5rem 0;
+}
+
+#task-form button {
+  cursor: pointer;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.05rem solid var(--secondary-color);
+}
+
+label {
+  margin-left: 0.5rem;
+  flex-grow: 3;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: var(--secondary-color);
+}
+
+input[type=checkbox] {
+  appearance: none;
+}
+
+input[type=checkbox]::before {
+  content: "";
+  display: block;
+  cursor: pointer;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.125rem;
+  position: relative;
+  background: var(--secondary-color);
+}
+
+input[type=checkbox]:checked::before {
+  content: "✔";
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.125rem;
+  position: relative;
+  background: var(--primary-color);
+}
+
+.button-delete {
+  color: red;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
