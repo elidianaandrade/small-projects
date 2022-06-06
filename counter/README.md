@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Counter" src="">
+  <img alt="Counter" src="https://github.com/elidianaandrade/small-projects/blob/main/counter/assets/img/counter-screen.png?raw=true">
 </div>
 <br>
 
@@ -32,6 +32,6 @@ Contador desenvolvido no curso de JavaScript da [Digital Innovation One](https:/
 
 <br>
 
-<img alt="Counter GIF" src="">
+<img alt="Counter GIF" src="https://github.com/elidianaandrade/small-projects/blob/main/counter/assets/img/counter-screen.gif?raw=true">
 
 <br>
