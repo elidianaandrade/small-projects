@@ -14,7 +14,7 @@ Contador desenvolvido no curso de JavaScript da [Digital Innovation One](https:/
 [![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## ➖ Números negativos com cor diferente
- Para solucionar o desafio de mudar a cor dos números negativos utilizei o método `addEventListener` e a codicional `if` com a função [`Math.sign()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/sign) para converter o argumento para número e identificar os negativos.
+ Para solucionar o desafio de mudar a cor dos números negativos utilizei o método `addEventListener` e a condicional `if` com a função [`Math.sign()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/sign) para converter o argumento para número e identificar os negativos.
 
 > ### Math.sign()
 > A função Math.sign() retorna o sinal de um número, indicando se o número é positivo, negativo ou zero. <br>
