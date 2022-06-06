@@ -1,11 +1,16 @@
 <div align="center">
-    <img alt="To-do List" src="">
+    <img alt="To-do List" src="https://github.com/elidianaandrade/small-projects/blob/main/to-do%20list/assets/img/to-do-list-screen.png?raw=true">
 </div>
 <br>
 
 # To-do list
 To-do list desenvolvida no curso de JavaScript da [Digital Innovation One](https://www.dio.me/).
  Para incrementar o projeto, além de alterar o estilo, adicionei um botão para poder excluir a tarefa adicionada a lista.
+
+
+<div align="center">
+    <img alt="To-do List GIF" src="https://github.com/elidianaandrade/small-projects/blob/main/to-do%20list/assets/img/to-do-list-screen.gif?raw=true">
+</div>
 
 <br>
 
