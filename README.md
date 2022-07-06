@@ -7,3 +7,11 @@
 
 # SMALL PROJECTS
 Repositório voltado para pequenos projetos.
+
+
+## 💡 Small projects ideas
+- [x] Counter;
+- [x] To-do List;
+- [ ] Calculator;
+- [ ] Forms;
+- [ ] Snake game;
