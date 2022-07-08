@@ -16,12 +16,13 @@ Repository for small projects.
 - [ ] Calculator;
 - [ ] Forms;
 - [ ] Clock with timer;
-- [ ] Comments section
-- [ ] Text editor box
+- [ ] Comments section;
+- [ ] Text editor box;
+- [ ] Playlist;
 - [ ] Snake game;
 - [ ] Memory game;
 - [ ] Jokenpo game;
-- [ ] Hash game;
+- [ ] Hash game.
 
 
 
