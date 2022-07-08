@@ -16,6 +16,8 @@ Repository for small projects.
 - [ ] Calculator;
 - [ ] Forms;
 - [ ] Clock with timer;
+- [ ] Calendar;
+- [ ] Trello;
 - [ ] Comments section;
 - [ ] Text editor box;
 - [ ] Playlist;
