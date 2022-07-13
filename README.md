@@ -1,5 +1,5 @@
 <div id="top" align="center">
-  <img alt="Small Projects" src="https://raw.githubusercontent.com/elidianaandrade/utilities/0f0d1fc8d9a97ddf5820abe138b11bba16030823/templates/README/img/covers/small-projects.gif">
+  <img alt="Small Projects" src="https://github.com/elidianaandrade/utilities/blob/main/templates/README/img/covers/small-projects.gif?raw=true">
 </div>
 
 # SMALL PROJECTS
